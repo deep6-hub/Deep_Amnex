@@ -1,0 +1,7 @@
+SECURITY NOTICE
+
+This package does not include a live service-account key. Each team member must select their own service-account JSON key using the Google Earth Engine setup panel. The app reads the project_id from that JSON automatically and saves only the path in user_config.json.
+
+Keep private keys in a private, access-controlled local folder. Do not commit or distribute them in the application ZIP. If a key has previously been shared, revoke it in Google Cloud IAM and generate a replacement.
+
+The project_id is a project identifier, not a secret. Earth Engine must be enabled for that project and the service account must have permission to use it.

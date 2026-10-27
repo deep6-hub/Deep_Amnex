@@ -1,0 +1,9 @@
+credentials.json
+*.json.key
+.venv/
+__pycache__/
+user_config.json
+server.log
+
+# Never commit uploaded Google Earth Engine service-account keys
+private_credentials/
